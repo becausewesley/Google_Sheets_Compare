@@ -100,7 +100,7 @@ def check_sheet(reference, sheet) -> None:
                                  }
                                  })
         # If the cell contains no number, we highlight the cell and continue
-        except IndexError:
+        except ValueError:
             # print("No number for row {}".format(r))   # For debugging
             # This sets the bg color to orange/brown if missing number
             sheet.format("E{}".format(r, r),
