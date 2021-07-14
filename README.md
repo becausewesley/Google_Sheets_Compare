@@ -28,7 +28,7 @@ and [HERE](https://help.talend.com/r/E3i03eb7IpvsigwC58fxQg/ol2OwTHmFbDiMjQl3ES5
 You do this by getting the Service Account email address contained in the JSON
 file, and then adding it as a Editor from the Google Sheet itself.**
 
-##Third Party Libraries
+## Third Party Libraries
 - This script uses the [tqdm](https://tqdm.github.io/) module. This is a progress bar module
 and is non-essential to the functioning of the script. I added this because the 
 script takes a while to execute because of all the looping - this will improve
