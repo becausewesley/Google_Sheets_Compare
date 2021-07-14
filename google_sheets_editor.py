@@ -6,7 +6,7 @@ from google.oauth2.service_account import Credentials
 
 
 def main():
-    g_sheet_name = "Database(s)"
+    g_sheet_name = "Your Google Sheet Here"
     sheet = connect_google(g_sheet_name)
 
     reference = "File/path/here"
